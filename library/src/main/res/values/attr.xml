@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="CircularProgressButton">
+        
+        <attr name="idle_text" format="string"/>
+        <attr name="complete_text" format="string"/>
+        <attr name="error_text" format="string"/>
+
+        <attr name="corner_radius" format="dimension"/>
+        <attr name="idle_selector" format="reference"/>
+        <attr name="progress_selector" format="reference"/>
+        <attr name="complete_selector" format="reference"/>
+        <!--进度动画圆环的背景-->
+        <attr name="idicator_background_color" format="color"/>
+        <!--进度动画圆环内部的背景-->
+        <attr name="progress_background_color" format="color"/>
+        <!--进度条圆环颜色-->
+        <attr name="indiator_color" format="color"/>
+        <attr name="strocke_width" format="dimension"/>
+
+    </declare-styleable>
+</resources>
